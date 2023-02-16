@@ -120,7 +120,7 @@
     "ssb-server": "^15.3.0",
     "ssb-tangle": "^1.0.1",
     "ssb-thread-schema": "^1.1.1",
-    "ssb-threads": "^10.0.4",
+    "ssb-threads": "^10.6.0",
     "ssb-tribes": "^3.1.1",
     "ssb-tunnel": "^2.0.0",
     "ssb-typescript": "^2.8.0",

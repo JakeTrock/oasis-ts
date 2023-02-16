@@ -10816,10 +10816,10 @@ ssb-thread-schema@^1.1.1:
     ssb-msg-content "^1.0.1"
     ssb-schema-definitions "^1.1.5"
 
-ssb-threads@^10.0.4:
-  version "10.5.0"
-  resolved "https://registry.yarnpkg.com/ssb-threads/-/ssb-threads-10.5.0.tgz#6f9def9e67678f43137009606fc3f17e0876c65b"
-  integrity sha512-x4nFwQjA2L+5Zj44oTVkD4PPlLt5fDapmKqCDU/FYawJ7aELvda1gHnosJJktQXeI2bFd2BbjfQ9oO1V01bpMg==
+ssb-threads@^10.6.0:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/ssb-threads/-/ssb-threads-10.6.0.tgz#b169aa236d1fce07d16eb21532062952a7916988"
+  integrity sha512-v9eeIPlmdgKFC4o2t/DDVi/LI2IHFi14sOLrLIkmxGpHLH7MUE0FLoeE7ym/53cu+jvz6DDZ5d3NKQdc+kOWmg==
   dependencies:
     bipf "^1.9.0"
     pull-cat "^1.1.11"
