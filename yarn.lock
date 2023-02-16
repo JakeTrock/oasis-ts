@@ -413,6 +413,14 @@
     remark "^13.0.0"
     unist-util-find-all-after "^3.0.2"
 
+"@tangle/graph@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@tangle/graph/-/graph-2.1.0.tgz#41b95e3362ee113d649aaa0e890d40599b3d4519"
+  integrity sha512-Jx4W39lLjAAd13Rh7+m8Yi742NVp1kbbz6W4sv/jPStb/K/+0nj4Rafe3jW9EkazInrTXtQAuY7VEAeVaYmEew==
+  dependencies:
+    lodash.clone "^4.5.0"
+    lodash.set "^4.3.2"
+
 "@tangle/graph@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@tangle/graph/-/graph-3.0.0.tgz#9b7a2c68e481911baab921526f612cc628c6891f"
@@ -420,6 +428,14 @@
   dependencies:
     lodash.clone "^4.5.0"
     lodash.set "^4.3.2"
+
+"@tangle/overwrite@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@tangle/overwrite/-/overwrite-2.1.0.tgz#367ea2f22b73cd2e1d79d0b73e96fd7d3c3cf76f"
+  integrity sha512-cqVehgFrq60Qvfj8Gaz6dBSrEcTXqaNpW1TQOfIEJsHz1HLrHlJjBgFnSyLAqpklyD/DENe7gSrLWcqHQZWIsg==
+  dependencies:
+    is-my-json-valid "^2.20.5"
+    lodash.isequal "^4.5.0"
 
 "@tangle/overwrite@^3.0.0":
   version "3.0.0"
@@ -429,12 +445,34 @@
     is-my-json-valid "^2.20.5"
     lodash.isequal "^4.5.0"
 
+"@tangle/reduce@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@tangle/reduce/-/reduce-3.1.0.tgz#f1ffae878f7ac50c59b2ca8bcec0bed7b575a0d4"
+  integrity sha512-FonAaam87HgJ1d9qXDqnbyRdRzIObM7UmhsdpD+2RTuvdl6Eu9UyNkkU9jqAX5r2elgfYAUgKYQ8KJ9XDw9xYg==
+  dependencies:
+    "@tangle/graph" "^2.1.0"
+
 "@tangle/reduce@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@tangle/reduce/-/reduce-5.0.0.tgz#33687e668e91921f0d160f6b4ef9cfc9093d5e32"
   integrity sha512-lQokAIvtXplaTIn+ZNlVmmm8SwX2Uwl6YA6wfb2NdKaUX0lEA+IH3o/AObXS+R2kLQcu7j/Sr0OGvAtCYB8djQ==
   dependencies:
     "@tangle/graph" "^3.0.0"
+
+"@tangle/simple-set@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@tangle/simple-set/-/simple-set-2.1.0.tgz#3cf64c5565817353da23a7f78f41c7a548942071"
+  integrity sha512-mMSPbjIPndy1hJg89DBuSnxaUirNvypgkNDhYfZpofcisQrQm4nXC3WVqGsgqT6/fOYzMSpo0aCx6VcW8wEbvw==
+  dependencies:
+    is-my-json-valid "^2.20.5"
+
+"@tangle/strategy@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@tangle/strategy/-/strategy-2.0.1.tgz#2745a47c743062775ca40d24dc9247f23ba2f788"
+  integrity sha512-zQcdCXLbNAWH28VStWNR7bLV/gakjBgdi0KXlc/kRH8JB2+HXfz2jCVVsEzb5H6pGhZuJ7GMjI7wJgnMbvldxw==
+  dependencies:
+    is-my-json-valid "^2.20.5"
+    lodash.isequal "^4.5.0"
 
 "@tangle/strategy@^4.1.0":
   version "4.1.0"
@@ -10797,15 +10835,15 @@ ssb-subset-ql@^1.0.0, ssb-subset-ql@~1.0.0:
     ssb-db2 ">=3.0.0"
     ssb-ref "^2.13.0"
 
-ssb-tangle@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/ssb-tangle/-/ssb-tangle-1.0.1.tgz#e2702a1c0559bb07170f66517268394197b00a2e"
-  integrity sha512-Miu42xjISxwQGX1J59VC1FgMmLQShILZeYXOhCL5aavoYm7nzeykrEM//pU55pVlUTAbXLttvhH56IDXTPX/Kw==
+ssb-tangle@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/ssb-tangle/-/ssb-tangle-3.0.4.tgz#2c0cb3b58b5102df5e789d5f649506bebfdd6eea"
+  integrity sha512-OpR30aI9nbpgFwXDieWW9XQMtKUyeIO8ktuker8CLhQ+Uc7IjGKBd8ARf4nq/BZ8IPf+ULnNaafz+Q8+xzLfeQ==
   dependencies:
-    is-my-json-valid "^2.20.0"
-    pull-stream "^3.6.11"
-    ssb-ref "^2.13.9"
-    ssb-sort "^1.1.3"
+    "@tangle/overwrite" "^2.1.0"
+    "@tangle/reduce" "^3.1.0"
+    "@tangle/simple-set" "^2.1.0"
+    "@tangle/strategy" "^2.0.1"
 
 ssb-thread-schema@^1.1.1:
   version "1.1.1"
