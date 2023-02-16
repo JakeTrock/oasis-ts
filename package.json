@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@fraction/base16-css": "^1.1.0",
-    "@koa/router": "^10.0.0",
+    "@koa/router": "^12.0.0",
     "await-exec": "^0.1.2",
     "broadcast-stream": "^0.2.1",
     "debug": "^4.3.1",
@@ -133,7 +133,7 @@
     "@types/koa": "^2.11.3",
     "@types/koa-mount": "^4.0.0",
     "@types/koa-static": "^4.0.1",
-    "@types/koa__router": "^8.0.2",
+    "@types/koa__router": "^12.0.0",
     "@types/lodash": "^4.14.150",
     "@types/markdown-it": "^12.0.0",
     "@types/mkdirp": "^1.0.0",
