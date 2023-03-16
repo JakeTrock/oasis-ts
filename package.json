@@ -146,7 +146,7 @@
     "common-good": "^4.0.3",
     "husky": "^7.0.1",
     "nodemon": "^2.0.3",
-    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-recommended": "^11.0.0",
     "supertest": "^6.0.1",
     "tap": "^14.10.7",
     "ts-loader": "^9.4.2",
