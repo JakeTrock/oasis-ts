@@ -9836,10 +9836,10 @@ ssb-crut@^4.6.0:
     pull-stream "^3.6.14"
     ssb-schema-definitions "^3.2.1"
 
-ssb-db2@>=3.0.0, ssb-db2@>=3.4.1, ssb-db2@>=5:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/ssb-db2/-/ssb-db2-7.0.0.tgz#3b5265c149eb82d2547cf5a740fe615e3334e828"
-  integrity sha512-J3rWW0fXDvIvbefv4c3H11GaUeBEKwGPD4YTqgO08+wDXWetoMv+Y8b3amfXUmcS1afzYjM8qxZ2TfHrshO+ww==
+ssb-db2@>=3.0.0, ssb-db2@>=3.4.1, ssb-db2@>=5, ssb-db2@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/ssb-db2/-/ssb-db2-7.1.0.tgz#1510db367b20a41241305b33500ed6e86eb5db78"
+  integrity sha512-fkwtccGDgWBeGvHkgEvXogG6/ilKvUwYwmpGtIfT1sAv1uuzOLSH8HafQFjTMy3/38Ba7YRt+mYMWKhDi3nqpQ==
   dependencies:
     async-append-only-log "^4.3.7"
     atomic-file-rw "^0.3.0"
@@ -9960,7 +9960,7 @@ ssb-db2@>=3.0.0, ssb-db2@>=3.4.1, ssb-db2@>=5:
     too-hot "^1.0.0"
     typedarray-to-buffer "^4.0.0"
 
-"ssb-db2@>=3.0.0 <=6", "ssb-db2@>=4.1.0 <=6", ssb-db2@^6.1.1:
+"ssb-db2@>=3.0.0 <=6", "ssb-db2@>=4.1.0 <=6":
   version "6.3.3"
   resolved "https://registry.yarnpkg.com/ssb-db2/-/ssb-db2-6.3.3.tgz#6ec05f883626735f881d4be2dd82d641e2164521"
   integrity sha512-H5WztPw1lJmUR1e12McRABT4OStiwygDutirHhx1P520ssu5pTmuKrcUM/uSaEPbEPsLif17HpdKKd1fK2uxYg==
